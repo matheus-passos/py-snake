@@ -11,8 +11,9 @@ black = (0, 0, 0)
 # Inicialização Pygame
 try:
     pygame.init()
-except pygame.error:
+    except pygame.error:
     print('O modulo pygame nao foi iniciado')
+    
 # Tamanho Tela e Cobra
 largura = 320
 altura = 240
